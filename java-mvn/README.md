@@ -10,7 +10,7 @@
   * [Windows](https://confluence.atlassian.com/doc/setting-the-java_home-variable-in-windows-8895.html)
 * [Maven](https://maven.apache.org/download.cgi)
 * Set MVN_HOME
-  * [Windows](https://www.mkyong.com/maven/how-to-install-maven-in-windows/) 
+  * [Windows](https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
 
 ## Basic Maven Command
 
@@ -18,6 +18,12 @@
 
 ```sh
 mvn clean
+```
+
+* Clean Compile
+
+```sh
+mvn compile
 ```
 
 * Test Project
