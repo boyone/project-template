@@ -13,6 +13,6 @@ public class RoyaltyTest {
         int actualNormalPoints = royalty.calculate(239.90);
 
         // assert
-        assertEqual(expectedNormalPoints, actualNormalPoints);
+        assertEquals(expectedNormalPoints, actualNormalPoints);
     }
 }
